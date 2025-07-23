@@ -6,13 +6,13 @@ PetitionForm: Keeps the petition data, including ID, date, status, and reasons.
 DataEntry: Manages form submission and basic validation before review.
 Reviewer: Reviews forms submitted by DataEntry to make sure they’re ready for processing.
 Approval: Approves or rejects petitions based on the review, and also sends out notifications.
-Usage:
 
+Usage:
 DataEntry submits a new PetitionForm after validating it.
 Reviewer checks if the form is complete and ready.
 Approval approves or rejects the petition based on Reviewer feedback.
-Testing:
 
+Testing:
 JUnit tests are provided for all main classes: USCitizen, Worker, PetitionForm, DataEntry, Reviewer, and Approval.
 Each test checks basic functionality like validating forms, updating status, and approving or rejecting petitions.
 Requirements:
